@@ -14,6 +14,7 @@ PremierFusion is a multi-purpose Discord bot built with Node.js and Discord.js v
 
 ## Project Structure
 
+```text
 PremierFusion/
 ├── data/
 │   ├── afk.json
@@ -27,6 +28,7 @@ PremierFusion/
 ├── index.js
 ├── package-lock.json
 └── package.json
+```
 
 ## Prerequisites
 
