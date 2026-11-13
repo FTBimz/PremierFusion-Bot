@@ -51,6 +51,7 @@ PremierFusion/
 3. Create a .env file in the root directory and configure your credentials:
    ```env
    TOKEN=your_discord_bot_token_here
+   CLIENT_ID=your_client_id_here
    ```
 
 4. Deploy slash commands:
