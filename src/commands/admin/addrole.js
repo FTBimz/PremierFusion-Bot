@@ -21,7 +21,7 @@ module.exports = {
             await member.roles.add(role);
             const embed = new EmbedBuilder()
                 .setColor('#d8b8ff')
-                .setTitle('<:green_tick:1552640233164771338> Role Assigned')
+                .setTitle('<:green_tick:1552640231239323668> Role Assigned')
                 .setDescription(`Assigned **${role.name}** to **${member.user.tag}**.`);
 
             await interaction.reply({ embeds: [embed] });

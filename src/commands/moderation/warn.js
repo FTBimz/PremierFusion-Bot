@@ -34,7 +34,7 @@ module.exports = {
             await target.send({ embeds: [dmEmbed] });
             const replyEmbed = new EmbedBuilder()
                 .setColor('#d8b8ff')
-                .setTitle('<:green_tick:1552640233164771338> Member Warned')
+                .setTitle('<:green_tick:1552640231239323668> Member Warned')
                 .setDescription(`Successfully sent warning DM to **${target.user.tag}**.\nReason: ${reason}`);
 
             await interaction.reply({ embeds: [replyEmbed] });

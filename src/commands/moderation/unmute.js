@@ -18,7 +18,7 @@ module.exports = {
         await member.timeout(null);
         const embed = new EmbedBuilder()
             .setColor('#d8b8ff')
-            .setTitle('<:green_tick:1552640233164771338> Timeout Removed')
+            .setTitle('<:green_tick:1552640231239323668> Timeout Removed')
             .setDescription(`Successfully removed timeout from **${member.user.tag}**.`);
 
         await interaction.reply({ embeds: [embed] });
